@@ -20,11 +20,11 @@ if not ML_PART_DIR.exists():
     raise FileNotFoundError(f"ML_Part not found at {ML_PART_DIR}")
 
 helmet_model = YOLO(
-    ML_PART_DIR / "runs/detect/train2/weights/best.pt"
+    ML_PART_DIR / "train2/weights/best.pt"
 )
 
 plate_model = YOLO(
-    ML_PART_DIR / "runs/detect/train3/weights/best.pt"
+    ML_PART_DIR / "train3/weights/best.pt"
 )
 # =========================
 # OCR SETUP
