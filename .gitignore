@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+
+# Environment Variables
+.env
+
+# Uploads
+backend/uploads/
+
+# Next.js
+helmet-violation-ui/node_modules/
+helmet-violation-ui/.next/
+
+
+# VS Code
+.vscode/
